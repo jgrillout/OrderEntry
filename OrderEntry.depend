@@ -1,0 +1,315 @@
+# depslib dependency file v1.0
+1478530213 source:/home/john/code/ncurses/OrderEntry/CustEntry.cpp
+	"main.hpp"
+
+1478528303 /home/john/code/ncurses/OrderEntry/main.hpp
+	"customer.h"
+	"part.h"
+	"orderHeader.h"
+	"orderLines.h"
+	"LookUpOrderHeader.h"
+	"LookUpOrderLines.h"
+	"nextOrderId.h"
+	<ncurses.h>
+	<form.h>
+	<menu.h>
+	<malloc.h>
+	<string>
+	<stdlib.h>
+	<assert.h>
+	<mysql/mysql.h>
+	<assert.h>
+	<string.h>
+	<strings.h>
+	<stdio.h>
+	<vector>
+	<algorithm>
+
+1453501410 /home/john/code/ncurses/OrderEntry/customer.h
+	<mysql++.h>
+	<ssqls.h>
+
+1453511970 /home/john/code/ncurses/OrderEntry/part.h
+	<mysql++.h>
+	<ssqls.h>
+
+1453511968 /home/john/code/ncurses/OrderEntry/orderHeader.h
+	<mysql++.h>
+	<ssqls.h>
+
+1443557966 /home/john/code/ncurses/OrderEntry/orderLines.h
+	<mysql++.h>
+	<ssqls.h>
+
+1453501434 /home/john/code/ncurses/OrderEntry/LookUpOrderHeader.h
+	<mysql++.h>
+	<ssqls.h>
+
+1453511958 /home/john/code/ncurses/OrderEntry/LookUpOrderLines.h
+	<mysql++.h>
+	<ssqls.h>
+
+1453511964 /home/john/code/ncurses/OrderEntry/nextOrderId.h
+	<mysql++.h>
+	<ssqls.h>
+
+1467640297 source:/home/john/code/ncurses/OrderEntry/main.cpp
+	"main.hpp"
+
+1443557974 source:/home/john/code/ncurses/OrderEntry/OrderEntry.cpp
+	"main.hpp"
+
+1443557970 source:/home/john/code/ncurses/OrderEntry/PartEntry.cpp
+	"main.hpp"
+
+1475187607 source:/home/john/code/ncurses/OrderEntry/shared.cpp
+	"main.hpp"
+
+1443557978 source:/home/john/code/ncurses/OrderEntry/PrintInvoice.cpp
+	"main.hpp"
+	<stdio.h>
+	<ctime>
+
+1382423984 /usr/include/mysql++/mysql++.h
+	"connection.h"
+	"cpool.h"
+	"query.h"
+	"scopedconnection.h"
+	"sql_types.h"
+	"transaction.h"
+
+1382423984 /usr/include/mysql++/connection.h
+	"common.h"
+	"noexceptions.h"
+	"options.h"
+	<string>
+	"tcp_connection.h"
+	"uds_connection.h"
+	"wnp_connection.h"
+
+1382423984 /usr/include/mysql++/common.h
+	<winsock.h>
+	"config.h"
+	<mysql/mysql_version.h>
+	<mysql_version.h>
+	<mysql/mysql.h>
+	<mysql.h>
+
+1469101236 /usr/include/mysql/mysql_version.h
+	<custom_conf.h>
+
+1463391996 /usr/include/mysql/mysql.h
+	<standards.h>
+	<sys/types.h>
+	<winsock2.h>
+	"mysql_version.h"
+	"mysql_com.h"
+	"mysql_time.h"
+	"my_list.h"
+	"typelib.h"
+	"my_alloc.h"
+
+1463391996 /usr/include/mysql/mysql_com.h
+
+1463391996 /usr/include/mysql/mysql_time.h
+
+1463391996 /usr/include/mysql/my_list.h
+
+1463391996 /usr/include/mysql/typelib.h
+	"my_alloc.h"
+
+1463391996 /usr/include/mysql/my_alloc.h
+
+1382423984 /usr/include/mysql++/noexceptions.h
+	"common.h"
+
+1382423984 /usr/include/mysql++/options.h
+	"common.h"
+	<deque>
+	<string>
+
+1382423984 /usr/include/mysql++/tcp_connection.h
+	"connection.h"
+
+1382423984 /usr/include/mysql++/uds_connection.h
+	"connection.h"
+
+1382423984 /usr/include/mysql++/wnp_connection.h
+	"connection.h"
+
+1382423984 /usr/include/mysql++/cpool.h
+	"beemutex.h"
+	<list>
+	<assert.h>
+	<time.h>
+
+1382423984 /usr/include/mysql++/beemutex.h
+	"exceptions.h"
+
+1382423984 /usr/include/mysql++/exceptions.h
+	"options.h"
+	<exception>
+	<string>
+	<sstream>
+	<typeinfo>
+
+1382423984 /usr/include/mysql++/query.h
+	"common.h"
+	"exceptions.h"
+	"noexceptions.h"
+	"qparms.h"
+	"querydef.h"
+	"result.h"
+	"row.h"
+	"sqlstream.h"
+	"stadapter.h"
+	"transaction.h"
+	<deque>
+	<iomanip>
+	<list>
+	<map>
+	<set>
+	<vector>
+	<ext/slist>
+	<slist>
+	"insertpolicy.h"
+
+1382423984 /usr/include/mysql++/qparms.h
+	"stadapter.h"
+	<vector>
+
+1382423984 /usr/include/mysql++/stadapter.h
+	"common.h"
+	"datetime.h"
+	"null.h"
+	"sql_buffer.h"
+	"tiny_int.h"
+	<stdexcept>
+	<string>
+
+1382423984 /usr/include/mysql++/datetime.h
+	"common.h"
+	"comparable.h"
+	<string>
+	<iostream>
+
+1382423984 /usr/include/mysql++/comparable.h
+
+1382423984 /usr/include/mysql++/null.h
+	"exceptions.h"
+	<iostream>
+	<string>
+
+1382423984 /usr/include/mysql++/sql_buffer.h
+	"refcounted.h"
+	"type_info.h"
+	<string>
+
+1382423984 /usr/include/mysql++/refcounted.h
+	<memory>
+	<cstddef>
+	<stddef.h>
+
+1382423984 /usr/include/mysql++/type_info.h
+	"common.h"
+	"exceptions.h"
+	<map>
+	<sstream>
+	<typeinfo>
+
+1382423984 /usr/include/mysql++/tiny_int.h
+	"common.h"
+	<ostream>
+
+1382423984 /usr/include/mysql++/querydef.h
+
+1382423984 /usr/include/mysql++/result.h
+	"common.h"
+	"exceptions.h"
+	"field.h"
+	"field_names.h"
+	"field_types.h"
+	"noexceptions.h"
+	"refcounted.h"
+	"row.h"
+
+1382423984 /usr/include/mysql++/field.h
+	"common.h"
+	"type_info.h"
+	<vector>
+
+1382423984 /usr/include/mysql++/field_names.h
+	<string>
+	<vector>
+
+1382423984 /usr/include/mysql++/field_types.h
+	"type_info.h"
+	<vector>
+
+1382423984 /usr/include/mysql++/row.h
+	"common.h"
+	"mystring.h"
+	"noexceptions.h"
+	"refcounted.h"
+	"vallist.h"
+	<vector>
+	<string>
+
+1382423984 /usr/include/mysql++/mystring.h
+	"common.h"
+	"datetime.h"
+	"exceptions.h"
+	"null.h"
+	"sql_buffer.h"
+	<string>
+	<sstream>
+	<limits>
+	<stdlib.h>
+	<string.h>
+
+1382423984 /usr/include/mysql++/vallist.h
+	"manip.h"
+	<string>
+	<vector>
+
+1382423984 /usr/include/mysql++/manip.h
+	"common.h"
+	"myset.h"
+	"stadapter.h"
+	<iostream>
+
+1382423984 /usr/include/mysql++/myset.h
+	"common.h"
+	"mystring.h"
+	"stream2string.h"
+	<iostream>
+	<set>
+
+1382423984 /usr/include/mysql++/stream2string.h
+	<sstream>
+	<string>
+
+1382423984 /usr/include/mysql++/sqlstream.h
+	"common.h"
+	<sstream>
+
+1382423984 /usr/include/mysql++/transaction.h
+	"common.h"
+
+1382423984 /usr/include/mysql++/insertpolicy.h
+
+1382423984 /usr/include/mysql++/scopedconnection.h
+	"common.h"
+
+1382423984 /usr/include/mysql++/sql_types.h
+	"common.h"
+	"tiny_int.h"
+	<string>
+	<stdint.h>
+
+1382423984 /usr/include/mysql++/ssqls.h
+	"noexceptions.h"
+	"sql_types.h"
+	<string>
+	<math.h>
+
